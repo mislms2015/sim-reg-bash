@@ -1,0 +1,33 @@
+.stub {
+    width: 300px;
+}
+
+.drop-zone {
+    cursor: pointer;
+}
+
+ul.special_bullet {
+    list-style: none;
+}
+
+ul.special_bullet li:before {
+    color: #b9ff31;
+    content: "\261e \0020";
+    font-size: 25px;
+}
+
+.err-font {
+    font-size: 20px;
+}
+
+.msg-font {
+    font-size: 20px;
+}
+
+.import-msg {
+    display: none;
+}
+
+/* .create-table {
+    display: none !important;
+} */
